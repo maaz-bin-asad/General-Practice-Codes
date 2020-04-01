@@ -1,3 +1,4 @@
+#Some ending part of the code is left. Suggest how to maximize the distance and reduce the loops.
 def calc():
     param=input('Enter parameters')
     param=list(map(int,list(param.split(' '))))
