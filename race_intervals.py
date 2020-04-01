@@ -7,7 +7,7 @@ def calc():
     for first in range(0,len(intervel),1):
         for second in range(i,len(intervel),1):
             for third in range(first,second+1,1):
-            	intervel[third]=list(intervel[third])
+            	intervel[third]=list(intervel[third])          #to generate random number of intervels in which one should rest
     	        for sum in intervel:
     	        	if sum in intervel[third]:
     	        		continue:
